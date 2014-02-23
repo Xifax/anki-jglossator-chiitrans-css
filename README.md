@@ -7,10 +7,13 @@ Gists became too unorganized, so let's make a repo.
 Fonts
 -----
 
-* Advent Pro;
-* Raleway;
-* A-OTF リュウミン Pr5;
-* A-OTF ゴシックMB101 Pro;
+* Advent Pro
+* Raleway
+* A-OTF リュウミン Pr5
+* A-OTF ゴシックMB101 Pro
+* IPA P明朝
+* IPA明朝
+* Roboto
 
 Screenshots
 -----------
@@ -21,6 +24,5 @@ Anki example:
 Chiitrans example:
 ![Chiitrans hover](screenshots/chiitrans-hover.png)
 
-
-todo
-----
+JGlossator example:
+![JGlossator](screenshots/jglossator.png)

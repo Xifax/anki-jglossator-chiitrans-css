@@ -1,0 +1,182 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body
+{
+  font-size: 11pt;
+  background-color: #f3f5fa;
+  margin: 0px 10px 0px 10px;
+  color: #27506A;
+}
+
+a
+{
+  font-size: 8.0pt;
+  text-decoration: none;
+  color: #41627E;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: #41627E;
+}
+
+a:visited
+{
+  text-decoration: none;
+  color: #41627E;
+}
+
+/* Gloss entry. */
+.entry
+{
+  border-bottom: 1px solid #cccccc;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Last gloss entry. */
+.entry_last
+{
+  padding-top: 5px;
+}
+
+/* Expression. */
+.expression
+{
+  cursor: pointer;
+  font-family: 'IPA P明朝';
+  font-size: 18pt;
+  color: #3082BF;
+  margin-right: 0.7em;
+}
+
+/* Reading. */
+.reading
+{
+  font-family: 'IPA明朝';
+  font-size: 12pt;
+  color: #EA873F;
+}
+
+/* Definition. */
+.definition
+{
+  font-family: 'Advent Pro';
+  font-size: 11pt;
+}
+
+/* Pitch accent numbers. */
+.pitch_accent
+{
+  color: #808080;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+/* Deinflection rule. (past, passive, etc.). */
+.deinflection_rule
+{
+  color: #808080;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+/* Anki deck indicator */
+.in_anki_deck
+{
+  color: #808080;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+/* Frequency */
+.freq_very_common
+{
+  color: #00ce00;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.freq_common
+{
+  color: #aaaa00;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.freq_uncommon
+{
+  color: #E56717;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.freq_rare
+{
+  color: #e28cbb;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+/* Source dictionary that appears in the upper-right of the entry. */
+.source_dic
+{
+  position: absolute;
+  right: 10px;
+  color: #AAAAAA;
+  font-size: 12px;
+}
+
+/* Circled sub-definition number. (①, ②, etc.). */
+.sub_def_num
+{
+  color: #006699;
+}
+
+/* Text that appears before an example setence. (▲). */
+.example_prepend
+{
+  color: #c28b6d;
+}
+
+/* The Japanese part of the example sentence. */
+.example_jap
+{
+  color: #c28b6d;
+  font-family: 'IPA P明朝';
+}
+
+/* The example sentence translation. */
+.example_translation
+{
+  color: #6dc28b;
+  font-family: 'Advent Pro';
+}
+
+/* Highlighted search term */
+.search_hilite
+{
+  background-color: #cedbe6;
+}
+</style>
+
+<script type="text/javascript">
+// Handle a mouse down event in an entry div
+function handle_entry_mousedown(event, id)
+{
+  // If right mouse button was clicked
+  if(event.button == 2)
+  {
+    // Tell C# code to display context menu
+    window.external.displayEntryContextMenu(id);
+  }
+}
+</script>
+</head>
+<body>
+@@@_Body_@@@
+</body>
+</html>
