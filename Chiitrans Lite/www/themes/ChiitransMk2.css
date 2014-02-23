@@ -1,0 +1,29 @@
+/* Parsed segments and hover */
+.parsed {
+	background-color: transparent;
+	padding: 4px;
+}
+.parsed:hover {
+	cursor: pointer;
+	background-color: #6da4c2;
+}
+
+/* Parsed segments highlight */
+.parsed0 {
+    background-color: #c26da4;
+}
+
+.parsed1 {
+
+    background-color: #c28b6d;
+}
+
+.parsed_name {
+    background-color: #6dc28b;
+}
+
+/* Backgroun and font color */
+.main body {
+	background-color: #e1e6f3;
+	color: snow; 
+}

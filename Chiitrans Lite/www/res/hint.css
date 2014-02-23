@@ -1,0 +1,97 @@
+﻿body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid white;
+  /* background-color: InfoBackground; */
+  /*color: InfoText; */
+  overflow: hidden;
+  /* font: 13px Verdana; */
+  background-color: #a4c26d;
+  color: white;
+  font: 18px 'Raleway';
+}
+.transparent body {
+  background-color: #333;
+  color: white;
+}
+a,
+a:visited {
+  color: Highlight;
+}
+a {
+  text-decoration: none;
+}
+#pageNumFrame {
+  /*text-align: center;*/
+
+  padding-left: 15px;
+  font: 15px Roboto;
+  color: gray;
+}
+.transparent #pageNumFrame {
+  color: silver;
+}
+.misc_set {
+  font-style: italic;
+  color: white;
+  font-size: 15px !important;
+}
+.transparent .misc_set {
+  color: white;
+  font: 16px 'Advent Pro';
+}
+.page {
+  padding: 0 10px 5px 10px;
+}
+#kanji,
+#kana {
+  font-size: 20px;
+}
+#kanji {
+  color: #454545;
+  margin-bottom: 5px;
+  font-family: 'A-OTF ゴシックMB101 Pro R';
+}
+.transparent #kanji {
+  color: silver;
+}
+#kana {
+  font-family: 'A-OTF ゴシックMB101 Pro L';
+  color: #595959;
+}
+.transparent #kana {
+  color: silver;
+}
+#sense ul {
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.sense {
+  margin-bottom: 3px;
+}
+#tense,
+#tense .misc_set {
+  color: snow;
+  font-size: 15px;
+}
+#nameType,
+#infType {
+  color: snow;
+  font-size: 15px;
+}
+.btcf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.reading {
+  cursor: pointer;
+}
+.reading:hover {
+  /* background-color: #bfcae8; */
+  color: black;
+}
