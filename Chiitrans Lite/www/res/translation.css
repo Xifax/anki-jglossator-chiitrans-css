@@ -161,8 +161,6 @@
 }
 .text {
   cursor: default;
-  /*display: inline-block;*/
-
 }
 .parsed0 {
   background-color: #bfcae8;
@@ -221,7 +219,6 @@ ruby.special rt {
 }
 ruby.normal rt {
   font-family: 'A-OTF リュウミン Pr5 R-KL';
-  /*color: #27506A; */
   color: #6da4c2;
 }
 .ie11 ruby rt {

@@ -5,10 +5,7 @@
   right: 0;
   bottom: 0;
   border: 1px solid white;
-  /* background-color: InfoBackground; */
-  /*color: InfoText; */
   overflow: hidden;
-  /* font: 13px Verdana; */
   background-color: #a4c26d;
   color: white;
   font: 18px 'Raleway';
@@ -19,14 +16,12 @@
 }
 a,
 a:visited {
-  color: Highlight;
+  color: #ebebff;
 }
 a {
   text-decoration: none;
 }
 #pageNumFrame {
-  /*text-align: center;*/
-
   padding-left: 15px;
   font: 15px Roboto;
   color: gray;
@@ -92,6 +87,5 @@ a {
   cursor: pointer;
 }
 .reading:hover {
-  /* background-color: #bfcae8; */
   color: black;
 }
