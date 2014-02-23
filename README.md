@@ -1,19 +1,7 @@
 Pretties for Anki, JGlossator and Chiitrans
 ===========================================
 
-Various css and html snippets for anki decks, jglossator and chiitrans themes. Font are not included.
-Gists became too unorganized, so let's make a repo.
-
-Fonts
------
-
-* Advent Pro
-* Raleway
-* A-OTF リュウミン Pr5
-* A-OTF ゴシックMB101 Pro
-* IPA P明朝
-* IPA明朝
-* Roboto
+Various css and html snippets for Anki decks, JGlossator and Chiitrans themes. Font are not included.
 
 Screenshots
 -----------
@@ -26,3 +14,23 @@ Chiitrans example:
 
 JGlossator example:
 ![JGlossator](screenshots/jglossator.png)
+
+Fonts
+-----
+
+* Advent Pro
+* Raleway
+* Roboto
+* A-OTF リュウミン Pr5
+* A-OTF ゴシックMB101 Pro
+* IPA P明朝
+* IPA明朝
+
+Additional notes
+----------------
+
+* JGlossator does not support OTF fonts;
+* Both JGlossator and Chiitrans do not support full set of css features;
+* Too many fonts, only the few should remain;
+* Those should obviously improve productivity, probably, somewhat...
+
